@@ -1,0 +1,208 @@
+header {
+  background-color: burlywood;
+}
+main {
+    background-image: url(../assets/main-perrosygatos.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+footer {
+  background-color: burlywood;
+  text-align: center;
+  margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    color: rgb(40, 49, 218);
+}
+.parrafos1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.parrafos2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .fondo-3 {
+    background-color: rgb(230, 235, 179);
+    color: rgb(9, 9, 9);
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    color:rgb(65, 43, 14);
+  }
+  /* .p-2 {
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+  }
+  .p-3 {
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+  } */
+  .pie-pag {
+    display: flex;
+    justify-content: space-around;
+  }
+  .perro-1 {
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .perro-2 {
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .perro-3 {
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .fotos-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+  .gato-1 {
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .gato-2 {
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .gato-3{
+    background-color: rgb(230, 235, 179);
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .fotos-2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .productos-1 {
+    color: rgb(13, 35, 142);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .productos-2 {
+    color: rgb(13, 35, 142);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .form-control {
+    width: 400px;
+  }
+  .map {
+    display: flex;
+    justify-content: start;
+  }
+  .fotos-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  .fotos-4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fondo-4 {
+    background-color: bisque;
+  }
+  a:hover {
+    color: rgb(6, 101, 41);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  a:visited {
+    background-color: blue;
+  }
+  @media (max-width: 1240px) { 
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+    .productos-1 {
+      display: flex;
+      justify-content: space-between;
+      background-color: blanchedalmond;
+    }
+    .productos-2 {
+      background-color: blanchedalmond;
+    }
+ }
+ @media (min-width: 320px) {
+    .productos-1 {
+      font-style: italic;
+    }
+    .productos-2 {
+      font-style: italic;
+    }
+    header {
+      height: auto;
+    }
+    ul li {
+      display: inline-block;
+    }
+    }
+ @media (max-width: 590px) {
+  .fotos-1 {
+    background-color: goldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+    .fotos-2 {
+      background-color: goldenrod;
+    }
+    footer {
+      background-image: url(../assets/footer_campo.jpg)
+    }
+    ul li {
+      display: block;
+    }
+    }
