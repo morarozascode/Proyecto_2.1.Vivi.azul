@@ -95,6 +95,7 @@ ul {
     justify-content: center;
     justify-content: space-evenly;
     margin-bottom: 60px;
+    flex-wrap: wrap;
   }
   .gato-1 {
     background-color: rgb(230, 235, 179);
@@ -124,18 +125,21 @@ ul {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   .productos-1 {
     color: rgb(13, 35, 142);
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
   }
   .productos-2 {
     color: rgb(13, 35, 142);
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
   }
   .form-control {
     width: 400px;
@@ -148,10 +152,12 @@ ul {
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+    flex-wrap: wrap;
   }
   .fotos-4 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .fondo-4 {
     background-color: bisque;
@@ -191,6 +197,14 @@ ul {
       display: inline-block;
     }
     }
+  @media (max-width: 768px) {
+    .productos-1 {
+      display: flex;
+      flex-direction: column;
+    }
+    }
+
+
  @media (max-width: 590px) {
   .fotos-1 {
     background-color: goldenrod;
