@@ -1,0 +1,15 @@
+.fondo-4 {
+    background-color: $color-secundario
+}
+.fotos-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+.fotos-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

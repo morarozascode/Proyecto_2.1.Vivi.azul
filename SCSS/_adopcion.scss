@@ -1,0 +1,75 @@
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+.parrafo-3 {
+    text-align: center;
+    padding: 40px;
+}
+.fotos-1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.fotos-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.perro-1 {
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  .perro-2 {
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .perro-3 {
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .gato-1 {
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .gato-2 {
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .gato-3{
+    background-color: $fondo-adopcion;
+    color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
+  .card-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+  

@@ -1,222 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: burlywood;
+  font-family: "Poppins";
 }
+
 main {
-    background-image: url(../assets/main-perrosygatos.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
+  background-image: url(../assets/main-perrosygatos.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins";
 }
+
 footer {
   background-color: burlywood;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  padding: 40px;
 }
+
 h1 {
-    text-align: center;
-    color: rgb(40, 49, 218);
+  color: rgb(40, 49, 218);
+  text-align: center;
 }
+
 .parrafos1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 60px;
 }
+
 .parrafos2 {
   text-align: center;
   margin-bottom: 60px;
 }
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    display: inline-block;
-  }
+li {
+  display: inline-block;
+}
 
-  li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-  }
-  .fondo-3 {
-    background-color: rgb(230, 235, 179);
-    color: rgb(9, 9, 9);
-    display: flex;
-    justify-content: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  h3 {
-    color:rgb(65, 43, 14);
-  }
-  /* .p-2 {
-    display: flex;
-    justify-content: flex-end;
-    color: blue;
-  }
-  .p-3 {
-    display: flex;
-    justify-content: flex-end;
-    color: blue;
-  } */
-  .pie-pag {
-    display: flex;
-    justify-content: space-around;
-  }
-  .perro-1 {
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .perro-2 {
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-  }
-  .perro-3 {
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-  }
-  .fotos-1 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-  }
-  .gato-1 {
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-  }
-  .gato-2 {
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-  }
-  .gato-3{
-    background-color: rgb(230, 235, 179);
-    color: black;
-    border-radius: 10%;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-  }
-  .fotos-2 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  .productos-1 {
-    color: rgb(13, 35, 142);
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  .productos-2 {
-    color: rgb(13, 35, 142);
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  .form-control {
-    width: 400px;
-  }
-  .map {
-    display: flex;
-    justify-content: start;
-  }
-  .fotos-3 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-  }
-  .fotos-4 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  .fondo-4 {
-    background-color: bisque;
-  }
-  a:hover {
-    color: rgb(6, 101, 41);
-    font-family: 'Courier New', Courier, monospace;
-  }
-  a:visited {
-    background-color: blue;
-  }
-  @media (max-width: 1240px) { 
-    p {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
-    }
-    .productos-1 {
-      display: flex;
-      justify-content: space-between;
-      background-color: blanchedalmond;
-    }
-    .productos-2 {
-      background-color: blanchedalmond;
-    }
- }
- @media (min-width: 320px) {
-    .productos-1 {
-      font-style: italic;
-    }
-    .productos-2 {
-      font-style: italic;
-    }
-    header {
-      height: auto;
-    }
-    ul li {
-      display: inline-block;
-    }
-    }
-  @media (max-width: 768px) {
-    .productos-1 {
-      display: flex;
-      flex-direction: column;
-    }
-    }
+li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
 
+.productos-1 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  border: 5px solid rgb(93, 93, 213);
+  margin: 60px;
+  padding: 20px;
+}
 
- @media (max-width: 590px) {
-  .fotos-1 {
-    background-color: goldenrod;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-    .fotos-2 {
-      background-color: goldenrod;
-    }
-    footer {
-      background-image: url(../assets/footer_campo.jpg)
-    }
-    ul li {
-      display: block;
-    }
-    }
+.productos-2 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  border: 5px solid rgb(48, 32, 148);
+  margin: 60px;
+  padding: 20px;
+}
+
+.productos-3 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  border: 5px solid rgb(10, 10, 80);
+  margin: 60px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.parrafo-3 {
+  text-align: center;
+  padding: 40px;
+}
+
+.fotos-1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.fotos-2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.perro-1 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.perro-2 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.perro-3 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.gato-1 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.gato-2 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.gato-3 {
+  background-color: rgb(141, 161, 207);
+  color: black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.fondo-4 {
+  background-color: bisque;
+}
+
+.fotos-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.fotos-4 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fondo-3 {
+  color: rgb(9, 9, 9);
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid rgb(27, 206, 188);
+  margin: 60px;
+  padding: 20px;
+}
+
+.fondo-5 {
+  color: rgb(9, 9, 9);
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid rgb(21, 129, 118);
+  margin: 60px;
+  padding: 20px;
+}
+
+.fondo-6 {
+  color: rgb(9, 9, 9);
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid rgb(16, 83, 76);
+  margin: 60px;
+  padding: 20px;
+}
+
+.p-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.pie-pag {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px;
+}
+
+.perro-1 {
+  transition-duration: 5s;
+}
+.perro-1:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+.perro-2 {
+  transition-duration: 5s;
+}
+.perro-2:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+.perro-3 {
+  transition-duration: 5s;
+}
+.perro-3:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+.gato-1 {
+  transition-duration: 5s;
+}
+.gato-1:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+.gato-2 {
+  transition-duration: 5s;
+}
+.gato-2:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+.gato-3 {
+  transition-duration: 5s;
+}
+.gato-3:hover {
+  height: 250px;
+  width: 350px;
+  background-color: rgb(64, 216, 64);
+}
+
+a:hover {
+  color: rgb(6, 101, 41);
+  font-family: "Courier New", Courier, monospace;
+}
+
+a:visited {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

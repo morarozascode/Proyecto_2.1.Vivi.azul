@@ -1,0 +1,31 @@
+.productos-1 {
+    color: $h5;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px solid  rgb(93, 93, 213);
+    margin: 60px;
+    padding: 20px;
+  }
+
+  .productos-2 {
+    color: $h5;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px solid  rgb(48, 32, 148);
+    margin: 60px;
+    padding: 20px;
+  }
+  .productos-3 {
+    color: $h5;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px solid  rgb(10, 10, 80);
+    margin: 60px;
+    padding: 20px;
+  }

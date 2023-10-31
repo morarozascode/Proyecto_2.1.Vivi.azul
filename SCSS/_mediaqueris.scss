@@ -1,0 +1,8 @@
+.fondo-3 {
+    @include mobile {
+        flex-direction: column;
+    }
+    @include tablet {
+        background-color: aquamarine;
+    }
+}

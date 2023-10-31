@@ -1,0 +1,21 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "main";
+@import "footer";
+@import "index.html";
+@import "productos";
+@import "adopcion";
+@import "galeria";
+@import "recomendaciones";
+@import "contacto";
+@import "animaciones";
+@import "mixins";
+
+a:hover {
+    color: rgb(6, 101, 41);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  a:visited {
+    background-color: blue;
+  }
