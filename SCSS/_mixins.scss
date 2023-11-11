@@ -1,12 +1,9 @@
 @mixin tablet {
-    @media screen and (max-width: 992px){
-        @content;
-    }     
+    background-color: aquamarine;
 }
 
 @mixin mobile {
-    @media screen and (max-width: 476){
-        @content
-    }
+    background-color: coral;
+    flex-direction: column;
         
 }

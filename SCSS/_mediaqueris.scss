@@ -1,8 +1,47 @@
 .fondo-3 {
-    @include mobile {
-        flex-direction: column;
+    @media screen and (max-width: $mobile){
+        background-color: $color-terciario;
+        display: flex;
+        flex-wrap: wrap;
     }
-    @include tablet {
-        background-color: aquamarine;
+    @media screen and (max-width: $desktop){
+        font-family: $fuente-secundaria;
+    }
+}
+.fondo-5 {
+    @media screen and (max-width: $mobile){
+        background-color: $color-terciario;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.fondo-6 {
+    @media screen and (max-width: $mobile){
+        background-color: $color-terciario;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.fotos-1 {
+    @media screen and (max-width: $mobile){
+        background-color: $color-secundario;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+.fotos-2 {
+    @media screen and (max-width: $mobile){
+        background-color: $color-terciario;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}   
+.formulario {
+    @media screen and (max-width: $mobile){
+        background-color: $color-secundario;
+        display: flex;
+        flex-wrap: wrap;
     }
 }

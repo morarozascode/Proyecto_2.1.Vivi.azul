@@ -3,6 +3,8 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "mediaqueris";
+@import "mixins";
 @import "index.html";
 @import "productos";
 @import "adopcion";
@@ -10,7 +12,7 @@
 @import "recomendaciones";
 @import "contacto";
 @import "animaciones";
-@import "mixins";
+
 
 a:hover {
     color: rgb(6, 101, 41);

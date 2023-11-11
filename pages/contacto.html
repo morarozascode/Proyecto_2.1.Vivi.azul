@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Haz tu pedido de productos o adopcion">
     <meta name="keywords" content="pedir comida de animal, comida de perro, comida de gato, pedir a domicilio comida de animales">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img width="80px" src="../assets/inicio.jpg" alt=""></a>
-        <nav>
+        <a href="../index.html"><img width="80px" src="../assets/logo_animal.png" alt="logo perrito"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-burlywood">
+          <div class="container-fluid">
+            <a href="#"><img width="80px" src="./assets/logo_animal.png" alt="Inicio"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                  </button>
             <ul>
                 <li><a href="./productos.html">Productos</a></li>
                 <li><a href="./adopcion.html">Adoptame</a></li>
@@ -25,45 +37,38 @@
     <main>
       <h1>Comunicate con nosotros....</h1>
       <!-- utilice bootstrap -->
-     <form class="row gy-2 gx-3 align-items-center">
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingInput">Nombre</label>
-          <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+     <div class="formulario">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-        <div class="row mb-3">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3">
-          </div>
+          <div class="col-12">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
         </div>
-        <form class="was-validated">
-          <div class="mb-3">
-            <label for="validationTextarea" class="form-label"></label>
-            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required>Cuál es tu Pedido?</textarea>
-            <div class="invalid-feedback">
-            </div>
-          </div>
-        
-        <div class="col-auto">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-            <label class="form-check-label" for="autoSizingCheck">
-              Recuerdame
-            </label>
-          </div>
+          <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="col-auto boton">
-          <button type="button" class="btn btn-primary">Enviar</button>
+          <div class="col-md-2">
+          <label for="inputZip" class="form-label">Comentarios</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+          <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
       </form>
-      <h2 class="map">Visitanos</h2>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3263006150096!2d-70.658923!3d-33.4408044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50e2aec8a49%3A0xac06d257682f2a3e!2sHu%C3%A9rfanos%201570%2C%208340443%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1696997804646!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+     <h2 class="map">Visitanos</h2>
+     <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3263006150096!2d-70.658923!3d-33.4408044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50e2aec8a49%3A0xac06d257682f2a3e!2sHu%C3%A9rfanos%201570%2C%208340443%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1696997804646!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer class="pie-pag">
         <p>Te esperamos!!</p>
         <p>Siguenos en nuestras redes sociales</p>
-        <a href="https://web.whatsapp.com/"><img width="30px" src="../assets/whatsapp.png" alt="Whatsapp Animals">+569 92800748</a>
-        <a href="https://www.facebook.com/search/top?q=fundaci%C3%B3n%20huella%20animal%20chile"><img width="30px" src="../assets/facebook.png" alt="Facebook Animals">Animals</a>
+        <a href="https://web.whatsapp.com/"><img width="30px" src="../assets/whatsapp.png" alt="Whatsapp Animals"></a>
+        <a href="https://www.facebook.com/search/top?q=fundaci%C3%B3n%20huella%20animal%20chile"><img width="30px" src="../assets/facebook.png" alt="Facebook Animals"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
